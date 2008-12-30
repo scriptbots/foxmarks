@@ -1,0 +1,19 @@
+<!ENTITY conflict.localversion "Wersja lokalna">
+<!ENTITY conflict.name "Nazwa">
+<!ENTITY conflict.location "Lokalizacja">
+<!ENTITY conflict.keyword "Słowo kluczowe">
+<!ENTITY conflict.description "Opis">
+<!ENTITY conflict.sidebar "Załaduj tą zakładkę na pasek">
+<!ENTITY conflict.retainlocal "Zachowaj lokalną wersję">
+<!ENTITY conflict.serverversion "Wersja na serwerze">
+<!ENTITY conflict.retainserver "Zachowaj wersję na serwerze">
+<!ENTITY bookmarkconflict.title "Foxmarks: Konflikt zakładek">
+<!ENTITY bookmarkconflict.desc1 "Foxmarks nie może ocenić, która z wersji tej zakładki powinna zostać zachowana.">
+<!ENTITY bookmarkconflict.desc2 "Proszę wybrać wersję, która powinna zostać zachowana.">
+<!ENTITY folderconflict.title "Foxmarks: Konflikt folderów">
+<!ENTITY folderconflict.desc1 "Foxmarks nie może ocenić, która z wersji tego folderu powinna zostać zachowana.">
+<!ENTITY folderconflict.desc2 "Proszę wybrać wersję, która powinna zostać zachowana.">
+<!ENTITY parentconflict.title "Foxmarks: Konflikt rodziców">
+<!ENTITY parentconflict.desc1 "Foxmarks nie może ocenić, do którego z tych dwóch folderów należy ten element.">
+<!ENTITY parentconflict.desc2 "Proszę wybrać folder, do którego ten element powinien należeć.">
+<!ENTITY parentconflict.item "Element">

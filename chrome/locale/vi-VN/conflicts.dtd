@@ -1,0 +1,19 @@
+<!ENTITY conflict.localversion "Phiên bản Nội bộ">
+<!ENTITY conflict.name "Tên">
+<!ENTITY conflict.location "Địa chỉ">
+<!ENTITY conflict.keyword "Từ khóa">
+<!ENTITY conflict.description "Mô tả">
+<!ENTITY conflict.sidebar "Tải trang đánh dấu này trong thanh lề">
+<!ENTITY conflict.retainlocal "Giữ lại Phiên bản Nội bộ">
+<!ENTITY conflict.serverversion "Phiên bản Máy chủ">
+<!ENTITY conflict.retainserver "Giữ lại Phiên bản Máy chủ">
+<!ENTITY bookmarkconflict.title "Foxmarks: Mâu thuẫn Trang đánh dấu">
+<!ENTITY bookmarkconflict.desc1 "Foxmarks không biết cái nào trong những phiên bản của trang đánh dấu này cần được giữ lại.">
+<!ENTITY bookmarkconflict.desc2 "Vui lòng chọn phiên bản cần được giữ lại.">
+<!ENTITY folderconflict.title "Foxmarks: Mâu thuẫn Thư mục">
+<!ENTITY folderconflict.desc1 "Foxmarks không biết cái nào trong những phiên bản của thư mục này cần được giữ lại.">
+<!ENTITY folderconflict.desc2 "Vui lòng chọn phiên bản cần được giữ lại.">
+<!ENTITY parentconflict.title "Foxmarks: Mâu thuẫn Thư mục mẹ">
+<!ENTITY parentconflict.desc1 "Foxmarks không biết nội dung này thuộc về cái nào trong hai thư mục này.">
+<!ENTITY parentconflict.desc2 "Vui lòng chọn thư mục giữ lại nội dung này.">
+<!ENTITY parentconflict.item "Nội dung">

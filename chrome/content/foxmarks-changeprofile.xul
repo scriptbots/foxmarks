@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+
+<!--
+
+Copyright 2008 Foxmarks Inc.
+
+foxmarks-changeprofile.xul: implements the change profile dialog.
+
+-->
+
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css" ?>
+<?xml-stylesheet href="chrome://foxmarks/skin/foxmarks.css" type="text/css" ?>
+
+
+<!DOCTYPE dialog SYSTEM "chrome://foxmarks/locale/foxmarks.dtd">
+
+<dialog id="foxmarks-changeprofile"
+    title="&profile.dialog.title;"
+    windowtype="foxmarks:changeprofile"
+    xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+    xmlns:html="http://www.w3.org/1999/xhtml"
+    buttons="accept,cancel"
+    ondialogaccept="return ChangeProfileOK()"
+    ondialoghelp="return ChangeProfileHelp();"
+    onload="ChangeProfileLoad()"
+    persist="screenX screenY" >
+
+    <script src="chrome://foxmarks/content/foxmarks-changeprofile.js" />
+    <script src="chrome://foxmarks/content/foxmarks-settings.js" />
+    <script src="chrome://foxmarks/content/foxmarks-uitools.js" />
+
+    <description style="width: 20em; margin-bottom: 1.5em">
+        &profile.dialog.desc;
+    </description>
+    
+    <groupbox>
+        <grid>
+            <columns>
+                <column />
+                <column />
+            </columns>
+
+            <rows>
+                <row align="center"> 
+                    <label value="&dialog.label.password;" control="password" />
+                    <textbox id="password" type="password" size="32"
+                        oninput="PasswordChange();" />
+                </row>
+                <row align="center">
+                    <label value="&label.profilechoice;" />
+                    <hbox align="center">
+                        <image id="profileSpinner" hidden="true" 
+                            src="chrome://foxmarks/skin/images/Throbber-small.gif"
+                            height="16" width="16"/>
+                        <menulist id="profileMenuList" disabled="true">
+                            <menupopup id="profileMenuPopup" >
+                                <menuitem label="&profile.defaultname;" 
+                                    value="0" />
+                                <menuitem label="1" value="1" hidden="true"/>
+                                <menuitem label="2" value="2" hidden="true"/>
+                                <menuitem label="3" value="3" hidden="true"/>
+                                <menuitem label="4" value="4" hidden="true"/>
+                                <menuitem label="5" value="5" hidden="true"/>
+                                <menuitem label="6" value="6" hidden="true"/>
+                                <menuitem label="7" value="7" hidden="true"/>
+                                <menuitem label="8" value="8" hidden="true"/>
+                                <menuitem label="9" value="9" hidden="true"/>
+                            </menupopup>
+                        </menulist>
+                    </hbox>
+                </row>
+            </rows>
+        </grid>
+    </groupbox>
+</dialog>

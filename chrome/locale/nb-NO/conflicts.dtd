@@ -1,0 +1,19 @@
+<!ENTITY conflict.localversion "Lokal versjon">
+<!ENTITY conflict.name "Navn">
+<!ENTITY conflict.location "Adresse">
+<!ENTITY conflict.keyword "Stikkord">
+<!ENTITY conflict.description "Beskrivelse">
+<!ENTITY conflict.sidebar "Last inn dette bokmerket i sidestolpen">
+<!ENTITY conflict.retainlocal "Behold lokal versjon">
+<!ENTITY conflict.serverversion "Tjernerversjon">
+<!ENTITY conflict.retainserver "Behold tjenerversjon">
+<!ENTITY bookmarkconflict.title "Foxmarks: Bokmerkekonflikt">
+<!ENTITY bookmarkconflict.desc1 "Foxmarks kan ikke avgjøre hvilken av disse bokmerkeversjonene som skal beholdes.">
+<!ENTITY bookmarkconflict.desc2 "Velg versjonen som skal beholdes.">
+<!ENTITY folderconflict.title "Foxmarks: Mappekonflikt">
+<!ENTITY folderconflict.desc1 "Foxmarks kan ikke avgjøre hvilken av disse mappeversjonene som skal beholdes.">
+<!ENTITY folderconflict.desc2 "Velg versjonen som skal beholdes.">
+<!ENTITY parentconflict.title "Foxmarks: Forelderkonflikt">
+<!ENTITY parentconflict.desc1 "Foxmarks kan ikke avgjøre hvilken av disse mappene dette elementet hører til.">
+<!ENTITY parentconflict.desc2 "Velg mappe som skal inneholde dette elementet.">
+<!ENTITY parentconflict.item "Element">

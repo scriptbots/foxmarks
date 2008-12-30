@@ -1,0 +1,71 @@
+<!ENTITY wizard.height "34">
+<!ENTITY wizard.title "Foxmarks - Installationsassistent">
+<!ENTITY wizard.title.verified "Zugang verifiziert">
+<!ENTITY wizard.desc8 "Herzlichen Glückwunsch! Foxmarks konnte Ihren Zugang erfolgreich verifizieren. Im Anschluss daran wird die erste Synchronisation auf diesem Rechner vorbereitet.">
+<!ENTITY wizard.title.firstsync "Erste Synchronisation">
+<!ENTITY wizard.desc9 "Foxmarks hat Daten für dieses Benutzerkonto auf dem Server gefunden.">
+<!ENTITY wizard.desc10 "Wie soll Foxmarks die erste Synchronisation durchführen?">
+<!ENTITY wizard.keepremote "Daten auf dem Server beibehalten; Daten auf diesem Rechner löschen.">
+<!ENTITY wizard.keeplocal "Daten auf dem Server löschen; Daten auf diesem Rechner beibehalten.">
+<!ENTITY wizard.merge "Daten auf dem Server mit denen auf diesem Rechner zusammenführen.">
+<!ENTITY wizard.seeserver "Ihre vorhandenen Lesezeichen auf dem Server ansehen.">
+<!ENTITY wizard.desc11 "Bei diesem ersten Zusammenführen beginnt Foxmarks mit einem Lesezeichen-Satz und fügt dann die Lesezeichen und Ordner eines anderen Satzes hinzu. Falls Sie ausgewählt haben Passwörter zu synchronisieren, wird dies genauso geschehen.">
+<!ENTITY wizard.desc12 "Mit welcher Seite soll Foxmarks beginnen?">
+<!ENTITY wizard.startlocal "Mit den Daten auf diesem Rechner beginnen.">
+<!ENTITY wizard.startremote "Mit den Daten auf dem Server beginnen.">
+<!ENTITY wizard.desc13 "(In jedem Fall bleiben alle Lesezeichen und Passwörter erhalten. Das Endergebnis wird jedoch eher des Ausgangs-Satzes ähneln.)">
+<!ENTITY wizard.title.ready "Bereit für die Synchronisation">
+<!ENTITY wizard.desc14 "Foxmarks ist bereit, die erste Synchronisation durchzuführen.">
+<!ENTITY wizard.title.success "Synchronisation erfolgreich abgeschlossen!">
+<!ENTITY wizard.desc15 "Herzlichen Glückwunsch! Ihre Lesezeichen wurden erfolgreich synchronisiert. Ab jetzt wird Foxmarks die Lesezeichen auf diesem Rechner automatisch synchronisieren.">
+<!ENTITY wizard.desc16 "Synchronisations-Einstellungen können über den &quot;Foxmarks&quot;-Eintrag im Menü &quot;Extras&quot; angepasst werden.">
+<!ENTITY wizard.title.selectprofile "Profil auswählen">
+<!ENTITY wizard.label.profilechoice "Profil:">
+<!ENTITY wizard.profile.defaultname "&lt;keines&gt;">
+<!ENTITY wizard.profile.desc "We see that you have created profiles to control which bookmarks Foxmarks syncs to your computers. You can select a profile from the list below for this computer, or leave the default setting to sync all of your bookmarks with this computer.">
+<!ENTITY wizard.title.syncpasswords "Optional: Sichere Passwort-Synchronisation">
+<!ENTITY wizard.syncpassworddesc "Foxmarks kann auch Passwörter sicher synchronisieren. Wenn Sie Benutzername und Passwort einer Website speichern, kann Foxmarks diese Anmelde-Informationen automatisch mit Ihren anderen Rechnern synchronisieren. Ihre Passwörter werden mit einer PIN verschlüsselt, die nur Sie kennen.">
+<!ENTITY wizard.syncpassworddesc2 "Foxmarks kann Ihre Passwörter nicht sehen.">
+<!ENTITY wizard.syncpassworddesc3 "Sie können diese Funktion jeder Zeit im Foxmarks-Einstellungs-Dialog ein- oder ausschalten.">
+<!ENTITY wizard.syncpassworddesc4 "Möchten Sie die sichere Passwort-Synchronisation jetzt aktivieren?">
+<!ENTITY wizard.syncpasswordcheck "Ja, Passwörter sicher synchronisieren">
+<!ENTITY wizard.yes "Ja">
+<!ENTITY wizard.no "Nein">
+<!ENTITY wizard.title.pinold "Sichere Passwort-Synchronisation: PIN eingeben">
+<!ENTITY wizard.desc.oldpin "Bitte eine PIN festlegen welche zur Einrichtung der Passwort-Synchronisation genutzt werden soll">
+<!ENTITY wizard.whatisthis "Was ist das?">
+<!ENTITY wizard.label.pin "PIN:">
+<!ENTITY wizard.label.confirmpin "PIN bestätigen:">
+<!ENTITY wizard.forgotpin "Ich habe meine PIN vergessen">
+<!ENTITY wizard.title.pinnew "Sichere Passwort-Synchronisation: PIN erstellen">
+<!ENTITY wizard.desc.pinnew "Foxmarks secures your passwords by encrypting them with a private PIN of your choosing. It&apos;s important that you remember this PIN because we cannot retrieve it for you.">
+<!ENTITY wizard.desc.pinnew2 "Your PIN can be any combination of letters, numbers and symbols.">
+<!ENTITY wizard.learnmore "Learn More.">
+<!ENTITY wizard.title.pincreated "Sichere Passwort-Synchronisation: PIN wurde erstellt">
+<!ENTITY wizard.newpinverifieddesc "Your PIN was successfully created and will be used to encrypt your passwords.">
+<!ENTITY wizard.newpinverifieddesc2 "Don&apos;t forget, only you know this PIN and Foxmarks cannot help you retrieve it.">
+<!ENTITY wizard.title.pinverified "Sichere Passwort-Synchronisation: PIN wurde überprüft">
+<!ENTITY wizard.pinverifieddesc "Ihre PIN wurde erfolgreich geprüft. Ihre gespeicherten Passwörter werden jetzt mit diesem Rechner synchronisiert.">
+<!ENTITY wizard.pinverifieddesc2 "You can change these settings at any time via the Foxmarks Settings dialog.">
+<!ENTITY wizard.title.forgotpin "Vergessene PIN">
+<!ENTITY wizard.learnhow "Learn how to retrieve your PIN on your other computer.">
+<!ENTITY wizard.forgotpindesc "Unfortunately we cannot recover your PIN. It may, however, be possible to recover your PIN from another one of your computers.">
+<!ENTITY wizard.forgotpindesc2 "Sie haben die Wahl:">
+<!ENTITY wizard.forgotpinoption1 "PIN später eingeben. Passwörter auf diesem Rechner nicht synchronisieren.">
+<!ENTITY wizard.forgotpinoption2 "Ihre PIN zurücksetzen">
+<!ENTITY wizard.title.resetpin "PIN zurücksetzen">
+<!ENTITY wizard.resetpindesc "Are you sure you want to reset your PIN? This will require you to enter your PIN into your other computers as well.">
+<!ENTITY wizard.resetpinoption1 "Ja. PIN jetzt zurücksetzen.">
+<!ENTITY wizard.resetpinoption2 "Nein. Passwörter nicht mit diesem Rechner synchronisieren.">
+<!ENTITY wizard.title.resetpinverified "Sichere Passwort-Synchronisation: Neue PIN wurde erstellt">
+<!ENTITY wizard.resetpinverifieddesc "Your PIN has been changed. You will be required to enter this PIN on your other computers the next time you synchronize them.">
+<!ENTITY wizard.securityinfo.label.1 "How Does Secure Password Sync Work?">
+<!ENTITY wizard.securityinfo.desc.1 "Encryption is at the core of how Foxmarks ensures that your passwords travel securely across the Internet to your other computers.">
+<!ENTITY wizard.securityinfo.desc.2 "When you opt to securely sync your passwords, Foxmarks will ask you to choose a secret PIN. This PIN will be used to encrypt your passwords before they leave your computer.">
+<!ENTITY wizard.securityinfo.desc.3 "Encrypting your passwords means that they will be scrambled into bits that can only be deciphered if you know the correct PIN. Since only you have the PIN, only you (not even Foxmarks) will be able to convert this encrypted data back into a meaningful list of passwords.">
+<!ENTITY wizard.securityinfo.label.2 "How Strong is the Encryption?">
+<!ENTITY wizard.securityinfo.desc.4 "To ensure that your passwords are encrypted with the maximum possible security, Foxmarks uses the current state of the art AES 256-bit encryption algorithm. AES is a United States government standard and is recommended by National Security Administration (NSA) for encrypting classified information.">
+<!ENTITY wizard.securityinfo.label.3 "What Can I do to Get the Maximum Possible Security?">
+<!ENTITY wizard.securityinfo.desc.5 "Even with the kind of military grade encryption that we&apos;re using, a very important component is the strength of the secret PIN that you choose. Foxmarks recommends that you choose a PIN that is difficult to guess and contains a variety of different letters, numbers, and symbols (such as @, $ and *)">
+<!ENTITY wizard.securityinfo.label.4 "I Want to Know More">
+<!ENTITY wizard.securityinfo.desc.6 "Please visit foxmarks.com to learn more. You can choose not to sync your passwords right now, but can easily turn this feature on later from the Foxmarks settings dialog.">

@@ -1,0 +1,71 @@
+<!ENTITY wizard.height "32">
+<!ENTITY wizard.title "Foxmarks 設定精靈">
+<!ENTITY wizard.title.verified "帳號已驗證">
+<!ENTITY wizard.desc8 "恭喜您！Foxmarks 已成功驗證您的帳號。接下來，我們準備開始這台電腦第一次的同步。">
+<!ENTITY wizard.title.firstsync "初次同步">
+<!ENTITY wizard.desc9 "Foxmarks 偵測到此帳號的書籤集已經在伺服器上。">
+<!ENTITY wizard.desc10 "您要 Foxmarks 如何執行初次同步？">
+<!ENTITY wizard.keepremote "保留伺服器上的書籤；丟棄這台電腦上的書籤。">
+<!ENTITY wizard.keeplocal "保留這台電腦上的書籤；丟棄伺服器上的書籤。">
+<!ENTITY wizard.merge "合併伺服器上的書籤到這台電腦上。">
+<!ENTITY wizard.seeserver "請按這裡查看伺服器上的書籤內容。">
+<!ENTITY wizard.desc11 "當書籤合併時，Foxmarks 會以其中一個書籤集為主，然後加入主書籤集沒有，但另一個書籤集卻有的項目。">
+<!ENTITY wizard.desc12 "您要 Foxmarks 使用哪個書籤集作為主書籤集？">
+<!ENTITY wizard.startlocal "使用這台電腦的書籤當作主書籤集。">
+<!ENTITY wizard.startremote "使用伺服器的書籤當作主書籤集。">
+<!ENTITY wizard.desc13 "不論何種方法，所有的書籤都會保留。但是合併後的書籤架構會比較偏向主書籤集的架構。">
+<!ENTITY wizard.title.ready "準備同步">
+<!ENTITY wizard.desc14 "Foxmarks 準備執行同步動作。">
+<!ENTITY wizard.title.success "成功！">
+<!ENTITY wizard.desc15 "恭喜您！您已經成功同步您的書籤。從現在開始，Foxmarks 會自動同步這台電腦的書籤。">
+<!ENTITY wizard.desc16 "您也可以按 Ctrl+Shift+S (Mac 上則是 Cmd+Shift+S) 手動執行同步。如果您需要調整同步設定，請從「書籤」功能表中開啟 Foxmarks 的設定視窗。">
+<!ENTITY wizard.title.selectprofile "選擇設定檔">
+<!ENTITY wizard.label.profilechoice "設定檔:">
+<!ENTITY wizard.profile.defaultname "&lt;無&gt;">
+<!ENTITY wizard.profile.desc "您已建立了設定檔以便控制 Foxmarks 同步您電腦之前的書籤資料。您可以從下面的清單中選一個設定檔，或離開這個視窗以預設值同步電腦中的所有書籤內容。">
+<!ENTITY wizard.title.syncpasswords "密碼同步功能(選用)">
+<!ENTITY wizard.syncpassworddesc "您想要在您的電腦之間同步已儲存的密碼嗎？">
+<!ENTITY wizard.syncpassworddesc2 "若您要同步密碼的話，Foxmarks 會要求您建立一個私密 PIN 以保護您的密碼。在上傳密碼前，我們會先用這個 PIN 加密您的密碼。這樣一來除了您自己，任何人都看不到您的密碼，就連 Foxmarks 也看不到。">
+<!ENTITY wizard.syncpassworddesc3 "您可以隨時到 Foxmarks 設定視窗中切換是否開啟此功能。">
+<!ENTITY wizard.syncpassworddesc4 "您要立刻啟用加密過的密碼同步嗎？">
+<!ENTITY wizard.syncpasswordcheck "是，請加密並同步密碼">
+<!ENTITY wizard.yes "是">
+<!ENTITY wizard.no "否">
+<!ENTITY wizard.title.pinold "輸入 PIN">
+<!ENTITY wizard.desc.oldpin "請輸入你當初設定密碼同步時所選用的 PIN。">
+<!ENTITY wizard.whatisthis "這是什麼？">
+<!ENTITY wizard.label.pin "輸入 PIN:">
+<!ENTITY wizard.label.confirmpin "再次確認 PIN:">
+<!ENTITY wizard.forgotpin "我忘了我的 PIN">
+<!ENTITY wizard.title.pinnew "建立 PIN">
+<!ENTITY wizard.desc.pinnew "Foxmarks 會用您選用的私密 PIN 加密您的密碼。您一定要記住這個 PIN，因為就連我們都無法幫您找回來。">
+<!ENTITY wizard.desc.pinnew2 "您的 PIN 可以結合任何字母、數字和符號。">
+<!ENTITY wizard.learnmore "更多說明">
+<!ENTITY wizard.title.pincreated "PIN 已建立">
+<!ENTITY wizard.newpinverifieddesc "您的 PIN 已成功建立。在同步密碼之前，我們會先用這個 PIN 加密您的密碼，這樣一來就只有您可以存取這些密碼。">
+<!ENTITY wizard.newpinverifieddesc2 "不要遺失或忘記這個 PIN。因為安全上的理由，就連 Foxmarks 也不知道您的 PIN，當然也無法幫您找回來。">
+<!ENTITY wizard.title.pinverified "PIN 已驗證">
+<!ENTITY wizard.pinverifieddesc "您的 PIN 已成功驗證。">
+<!ENTITY wizard.pinverifieddesc2 "您可以隨時透過 Foxmarks 設定視窗變更這些設定。">
+<!ENTITY wizard.title.forgotpin "忘記 PIN">
+<!ENTITY wizard.learnhow "了解更多有關從您其他的電腦上找回 PIN 的說明。">
+<!ENTITY wizard.forgotpindesc "不幸的是我們無法幫您取回 PIN，但您也許可以從您其他電腦中找回您的 PIN。">
+<!ENTITY wizard.forgotpindesc2 "你可以選擇:">
+<!ENTITY wizard.forgotpinoption1 "稍候再輸入您的 PIN，停用此電腦的密碼同步功能。">
+<!ENTITY wizard.forgotpinoption2 "重設您的 PIN。">
+<!ENTITY wizard.title.resetpin "重設 PIN">
+<!ENTITY wizard.resetpindesc "你確定要重設您的 PIN 嗎？重設之後您必須在每台電腦中都輸入一次新的 PIN。">
+<!ENTITY wizard.resetpinoption1 "是，重設我的 PIN。">
+<!ENTITY wizard.resetpinoption2 "否，停用此電腦的密碼同步功能。">
+<!ENTITY wizard.title.resetpinverified "新 PIN 已建立">
+<!ENTITY wizard.resetpinverifieddesc "您的 PIN 已變更，下次您在別台電腦同步之前都必須要輸入一次新的 PIN。">
+<!ENTITY wizard.securityinfo.label.1 "How Does Secure Password Sync Work?">
+<!ENTITY wizard.securityinfo.desc.1 "Encryption is at the core of how Foxmarks ensures that your passwords travel securely across the Internet to your other computers.">
+<!ENTITY wizard.securityinfo.desc.2 "When you opt to securely sync your passwords, Foxmarks will ask you to choose a secret PIN. This PIN will be used to encrypt your passwords before they leave your computer.">
+<!ENTITY wizard.securityinfo.desc.3 "Encrypting your passwords means that they will be scrambled into bits that can only be deciphered if you know the correct PIN. Since only you have the PIN, only you (not even Foxmarks) will be able to convert this encrypted data back into a meaningful list of passwords.">
+<!ENTITY wizard.securityinfo.label.2 "How Strong is the Encryption?">
+<!ENTITY wizard.securityinfo.desc.4 "To ensure that your passwords are encrypted with the maximum possible security, Foxmarks uses the current state of the art AES 256-bit encryption algorithm. AES is a United States government standard and is recommended by National Security Administration (NSA) for encrypting classified information.">
+<!ENTITY wizard.securityinfo.label.3 "What Can I do to Get the Maximum Possible Security?">
+<!ENTITY wizard.securityinfo.desc.5 "Even with the kind of military grade encryption that we&apos;re using, a very important component is the strength of the secret PIN that you choose. Foxmarks recommends that you choose a PIN that is difficult to guess and contains a variety of different letters, numbers, and symbols (such as @, $ and *)">
+<!ENTITY wizard.securityinfo.label.4 "I Want to Know More">
+<!ENTITY wizard.securityinfo.desc.6 "Please visit foxmarks.com to learn more. You can choose not to sync your passwords right now, but can easily turn this feature on later from the Foxmarks settings dialog.">

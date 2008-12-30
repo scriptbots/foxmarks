@@ -1,0 +1,19 @@
+<!ENTITY conflict.localversion "Versiune locală">
+<!ENTITY conflict.name "Denumire">
+<!ENTITY conflict.location "Locaţie">
+<!ENTITY conflict.keyword "Cuvânt cheie">
+<!ENTITY conflict.description "Descriere">
+<!ENTITY conflict.sidebar "Încarcă acest semn de carte în panoul lateral">
+<!ENTITY conflict.retainlocal "Reţine versiunea locală">
+<!ENTITY conflict.serverversion "Versiune de pe server">
+<!ENTITY conflict.retainserver "Reţine versiunea de pe server">
+<!ENTITY bookmarkconflict.title "Foxmarks: Conflict între versiunile semnelelor de carte">
+<!ENTITY bookmarkconflict.desc1 "Foxmarks nu poate decide care dintre aceste versiuni ar trebui reţinută.">
+<!ENTITY bookmarkconflict.desc2 "Selectaţi versiunea care ar trebui reţinută">
+<!ENTITY folderconflict.title "Foxmarks: Folder Conflict">
+<!ENTITY folderconflict.desc1 "Foxmarks can&apos;t tell which of these versions of this folder should be retained.">
+<!ENTITY folderconflict.desc2 "Please select the version that should be retained.">
+<!ENTITY parentconflict.title "Foxmarks: Parent Conflict">
+<!ENTITY parentconflict.desc1 "Foxmarks can&apos;t tell which of these two folders this item belongs in.">
+<!ENTITY parentconflict.desc2 "Please select the folder that should contain this item.">
+<!ENTITY parentconflict.item "Item">

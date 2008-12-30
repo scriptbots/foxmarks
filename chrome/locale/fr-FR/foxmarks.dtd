@@ -1,0 +1,103 @@
+<!ENTITY dialog.title "Foxmarks Bookmark Sync">
+<!ENTITY dialog.label.username "Nom d&apos;utilisateur :">
+<!ENTITY dialog.label.password "Mot de passe :">
+<!ENTITY dialog.label.rememberPassword "Mémoriser ce mot de passe pour les prochaines sessions.">
+<!ENTITY dialog.label.rememberPIN "Mémoriser ce PIN pour toutes les sessions.">
+<!ENTITY dialog.label.forgotPassword "J&apos;ai oublié mon nom d&apos;utilisateur ou mon mot de passe">
+<!ENTITY dialog.label.synchronization "Paramètres de synchronisation">
+<!ENTITY dialog.label.ontimer "Activer la synchronisation automatique">
+<!ENTITY dialog.label.synconshutdown "Synchronisation à la fermeture">
+<!ENTITY dialog.label.synconstartup "Synchronisation au démarrage">
+<!ENTITY dialog.label.askfirst "D&apos;abord demander">
+<!ENTITY dialog.label.lastsync "Dernière synchronisation :">
+<!ENTITY dialog.label.runWizard "Lancer l&apos;assistant de paramétrage">
+<!ENTITY dialog.label.syncNow "Synchroniser maintenant">
+<!ENTITY progress.title "Foxmarks : état">
+<!ENTITY progress.label.status "État :">
+<!ENTITY progress.width "30">
+<!ENTITY clobber.desc1 "Avertissement">
+<!ENTITY clobber.desc2 "Foxmarks a détecté que le jeu de marque-pages courant comporte beaucoup moins d&apos;éléments que lors de la dernière synchronisation.">
+<!ENTITY clobber.desc3 "Un bogue rare mais très sérieux du navigateur Firefox peut temporairement remplacer votre liste de marque-pages par un autre jeu de marque-pages par défaut contenant moins d&apos;éléments. Si cela arrive, il est important de ne pas procéder à une synchronisation des marque-pages jusqu&apos;à ce que la situation revienne à la normale.">
+<!ENTITY clobber.prompt "Souhaitez-vous vraiment synchroniser vos marque-pages tout de suite ?">
+<!ENTITY clobber.moreinfo "Renseignez-moi davantage…">
+<!ENTITY clobber.accept "Oui, veuillez synchroniser">
+<!ENTITY clobber.lastset "Nombre d&apos;éléments la DERNIÈRE fois :">
+<!ENTITY clobber.currset "Nombre d&apos;éléments CETTE fois :">
+<!ENTITY manager.syncNow "Synchroniser maintenant">
+<!ENTITY menu.myFoxmarks "Mes Foxmarks">
+<!ENTITY menu.settings "Paramètres…">
+<!ENTITY menu.status "État…">
+<!ENTITY menu.showstatus "Afficher l&apos;icône de barre d&apos;état">
+<!ENTITY menu.accesskey.foxmarks "F">
+<!ENTITY menu.accesskey.syncnow "S">
+<!ENTITY menu.accesskey.myfoxmarks "M">
+<!ENTITY menu.accesskey.settings "P">
+<!ENTITY menu.accesskey.status "T">
+<!ENTITY menu.accesskey.icon "I">
+<!ENTITY clobber.helpurl "http://wiki.foxmarks.com/wiki/Foxmarks:_Disappearing_Bookmarks">
+<!ENTITY label.general "Généraux">
+<!ENTITY label.status "État">
+<!ENTITY label.current.status "État actuel">
+<!ENTITY label.sync "Types">
+<!ENTITY label.sync.caption "Type de synchronisation">
+<!ENTITY label.account "Compte">
+<!ENTITY label.synchronization "Options de synchronisation">
+<!ENTITY label.advanced "Avancés">
+<!ENTITY label.security "Sécurité">
+<!ENTITY label.encrypt "Chiffrement :">
+<!ENTITY label.noencrypt "Aucun chiffrement">
+<!ENTITY label.passwordonly "Uniquement les identifiants">
+<!ENTITY label.encryptall "Tout chiffrer">
+<!ENTITY label.server "Serveur">
+<!ENTITY label.ownserver "Utilisation de votre propre serveur">
+<!ENTITY label.useownserver "Utiliser votre propre serveur">
+<!ENTITY label.url "URL du marque-page :">
+<!ENTITY label.passwordurl "URL du mot de passe :">
+<!ENTITY label.manualoverwrite "Remplacement manuel">
+<!ENTITY label.upload "Envoyer">
+<!ENTITY label.download "Télécharger">
+<!ENTITY label.forceoverwriteserver "Forcer le remplacement des données sur le serveur">
+<!ENTITY label.forceoverwritelocal "Forcer le remplacement des données locales">
+<!ENTITY label.logging "Journal">
+<!ENTITY label.enablelogging "Activer le journal d&apos;activité">
+<!ENTITY label.showlogfile "Afficher le fichier journal">
+<!ENTITY label.profiles "Profils">
+<!ENTITY label.profilechoice "Profil :">
+<!ENTITY label.sync.bookmarks "Marque-pages">
+<!ENTITY label.sync.passwords "Mots de passe">
+<!ENTITY label.sync.resetpin "Réinitialiser le PIN">
+<!ENTITY label.sync.deletepasswords "Supprimer les mots de passe du serveur">
+<!ENTITY label.sync.onlyff3 "* Uniquement pour Firefox 3 et supérieur.">
+<!ENTITY label.sync.morecomingsoon "Prenez connaissance des autres types de données disponibles bientôt.">
+<!ENTITY desc.profile "Utilisez des profils de synchronisation pour éviter de partager les marque-pages sensibles. Créez et gérez des profils de synchronisation sur my.foxmarks.com. Ensuite, sélectionnez ici un profil pour choisir les marque-pages devant être synchronisés vers et à partir de cet ordinateur.">
+<!ENTITY desc.sync "Foxmarks peut synchroniser et sauvegarder vos marque-pages et mots de passe.">
+<!ENTITY desc.ownserver "Foxmarks prend en charge le stockage de vos données sur votre propre serveur, par exemple un serveur FTP ou WebDAV.">
+<!ENTITY label.ownserver.moreinfo "En apprendre davantage.">
+<!ENTITY label.manageprofiles "Créer et gérer des profils de synchronisation">
+<!ENTITY profile.defaultname "&lt;aucun&gt;">
+<!ENTITY label.profile.change "Changer">
+<!ENTITY label.profile.my "My.Foxmarks.com">
+<!ENTITY profile.dialog.title "Changer de profil de synchronisation">
+<!ENTITY profile.dialog.desc "Afin de protéger vos profils des regards extérieurs, vous devez indiquer votre mot de passe Foxmarks pour poursuivre.">
+<!ENTITY dialog.title.invalidpin "Foxmarks : PIN invalide">
+<!ENTITY dialog.invalidpin.desc "Le PIN courant a été considéré comme invalide. Probablement que vous l&apos;avez modifié sur un autre ordinateur, il faudra donc également le modifier ici. Vous pouvez opter pour un des choix ci-dessous :">
+<!ENTITY dialog.invalidpin.newpin "Indiquer votre PIN :">
+<!ENTITY dialog.invalidpin.disable "Désactiver la synchronisation de mots de passe et conserver vos mots de passe courants">
+<!ENTITY dialog.title.resetpin "Synchronisation sécurisée de mots de passe : réinitialisation du PIN">
+<!ENTITY dialog.resetpin.pin "Indiquer le nouveau PIN">
+<!ENTITY dialog.resetpin.passwordstrength "Sûreté du mot de passe :">
+<!ENTITY dialog.resetpin.pinconfirm "Confirmer le nouveau PIN">
+<!ENTITY dialog.resetpin.desc2 "Votre PIN peut être composé de lettres, de chiffres et de symboles.">
+<!ENTITY dialog.resetpin.desc "Souhaitez-vous vraiment réinitialiser votre PIN ? Cela nous demandera de supprimer tous les mots de passe stockés actuellement sur nos serveurs. Les mots de passe sur cet ordinateur et sur vos autres ordinateurs ne seront pas affectés.">
+<!ENTITY dialog.title.passwordconflict "Synchronisation sécurisée de mots de passe : conflit entre mots de passe stockés">
+<!ENTITY dialog.passwordconflict.desc "Foxmarks n&apos;arrive pas à définir quelle version de ce mot passe devrait être conservée.">
+<!ENTITY dialog.passwordconflict.desc2 "Veuillez indiquer la version à conserver :">
+<!ENTITY dialog.passwordconflict.local "Version locale">
+<!ENTITY dialog.passwordconflict.server "Version sur le serveur">
+<!ENTITY dialog.passwordconflict.site "Site :">
+<!ENTITY dialog.passwordconflict.username "Nom d&apos;utilisateur :">
+<!ENTITY dialog.passwordconflict.password "Mot de passe :">
+<!ENTITY dialog.passwordconflict.showpasswords "Afficher les mots de passe">
+<!ENTITY dialog.passwordconflict.keeplocal "Conserver la version locale">
+<!ENTITY dialog.passwordconflict.keepserver "Conserver la version sur le serveur">
+<!ENTITY dialog.alert.title "Foxmarks">

@@ -1,0 +1,103 @@
+<!ENTITY dialog.title "Foxmarks ブックマーク同期設定">
+<!ENTITY dialog.label.username "ユーザ名:">
+<!ENTITY dialog.label.password "パスワード:">
+<!ENTITY dialog.label.rememberPassword "セッション間このパスワードを記憶する">
+<!ENTITY dialog.label.rememberPIN "セッションの間この PIN を記憶する">
+<!ENTITY dialog.label.forgotPassword "ユーザ名またはパスワードを忘れました">
+<!ENTITY dialog.label.synchronization "同期設定">
+<!ENTITY dialog.label.ontimer "自動同期にする">
+<!ENTITY dialog.label.synconshutdown "終了時に同期">
+<!ENTITY dialog.label.synconstartup "起動時に同期">
+<!ENTITY dialog.label.askfirst "最初に尋ねる">
+<!ENTITY dialog.label.lastsync "最後の同期:">
+<!ENTITY dialog.label.runWizard "セットアップウィザードを起動する">
+<!ENTITY dialog.label.syncNow "今すぐ同期する">
+<!ENTITY progress.title "Foxmarks: 状態">
+<!ENTITY progress.label.status "状態:">
+<!ENTITY progress.width "24">
+<!ENTITY clobber.desc1 "警告">
+<!ENTITY clobber.desc2 "Foxmarks が現在のブックマークが最後の同期より小さいサイズであることを検出しました。">
+<!ENTITY clobber.desc3 "Firefox ブラウザのまれであるが深刻なバグは時々ブックマークリストを一時的に小さいサイズのデフォルトブックマークと入れ替えてしまうことがあります。これが起こった場合は解決されるまで Foxmarks にブックマークを同期させないようにするのが重要です。">
+<!ENTITY clobber.prompt "現在のブックマークに本当に同期させてもいいですか？">
+<!ENTITY clobber.moreinfo "さらに私に伝えたい場合は...">
+<!ENTITY clobber.accept "はい、同期してください">
+<!ENTITY clobber.lastset "前回のアイテムの番号">
+<!ENTITY clobber.currset "今回のアイテムの番号">
+<!ENTITY manager.syncNow "今すぐ同期">
+<!ENTITY menu.myFoxmarks "My Foxmarks">
+<!ENTITY menu.settings "設定">
+<!ENTITY menu.status "状態">
+<!ENTITY menu.showstatus "ステータスバーアイコンの表示">
+<!ENTITY menu.accesskey.foxmarks "F">
+<!ENTITY menu.accesskey.syncnow "S">
+<!ENTITY menu.accesskey.myfoxmarks "M">
+<!ENTITY menu.accesskey.settings "E">
+<!ENTITY menu.accesskey.status "T">
+<!ENTITY menu.accesskey.icon "I">
+<!ENTITY clobber.helpurl "http://www.foxcloud.com/wiki/Foxmarks:_Disappearing_Bookmarks">
+<!ENTITY label.general "一般">
+<!ENTITY label.status "ステータス">
+<!ENTITY label.current.status "現在のステータス">
+<!ENTITY label.sync "タイプ">
+<!ENTITY label.sync.caption "同期とバックアップ">
+<!ENTITY label.account "アカウント">
+<!ENTITY label.synchronization "同期">
+<!ENTITY label.advanced "詳細">
+<!ENTITY label.security "セキュリティ">
+<!ENTITY label.encrypt "暗号化:">
+<!ENTITY label.noencrypt "暗号化なし">
+<!ENTITY label.passwordonly "パスワードのみ">
+<!ENTITY label.encryptall "すべて暗号化">
+<!ENTITY label.server "サーバ">
+<!ENTITY label.ownserver "自分のサーバを使用">
+<!ENTITY label.useownserver "自分のサーバを使用">
+<!ENTITY label.url "URL:">
+<!ENTITY label.passwordurl "パスワード URL:">
+<!ENTITY label.manualoverwrite "手動で上書き">
+<!ENTITY label.upload "アップロード">
+<!ENTITY label.download "ダウンロード">
+<!ENTITY label.forceoverwriteserver "サーバ上のブックマークを上書きする">
+<!ENTITY label.forceoverwritelocal "ローカル上のブックマークを上書きする">
+<!ENTITY label.logging "ログ">
+<!ENTITY label.enablelogging "ログを有効にする">
+<!ENTITY label.showlogfile "ログファイルの表示">
+<!ENTITY label.profiles "プロファイル">
+<!ENTITY label.profilechoice "プロファイル:">
+<!ENTITY label.sync.bookmarks "ブックマーク">
+<!ENTITY label.sync.passwords "パスワード">
+<!ENTITY label.sync.resetpin "PIN リセット">
+<!ENTITY label.sync.deletepasswords "サーバからパスワードを消去">
+<!ENTITY label.sync.onlyff3 "* Firefox 3 かそれ以上のみ。">
+<!ENTITY label.sync.morecomingsoon "Learn about what other data types will be available soon.">
+<!ENTITY desc.profile "Use sync profiles to keep sensitive bookmarks where they belong. Create and manage sync profiles at my.foxmarks.com. Then choose a profile here to control what Foxmarks syncs to and from this computer.">
+<!ENTITY desc.sync "Foxmarks can synchronize and backup both bookmarks and passwords.">
+<!ENTITY desc.ownserver "Foxmarks supports storing your data on your own server such as an FTP or WebDAV server.">
+<!ENTITY label.ownserver.moreinfo "Learn More.">
+<!ENTITY label.manageprofiles "Create and manage sync profiles">
+<!ENTITY profile.defaultname "&lt;none&gt;">
+<!ENTITY label.profile.change "Change">
+<!ENTITY label.profile.my "My.Foxmarks.com">
+<!ENTITY profile.dialog.title "Change Sync Profile">
+<!ENTITY profile.dialog.desc "To protect the privacy of your profiles, you must enter your Foxmarks account password to proceed.">
+<!ENTITY dialog.title.invalidpin "Foxmarks: Invalid PIN">
+<!ENTITY dialog.invalidpin.desc "Your current PIN appears to be invalid.  Most likely, you&apos;ve changed your PIN on a different computer and it needs to be updated here.  You can choose to do one of the following:">
+<!ENTITY dialog.invalidpin.newpin "Enter your PIN:">
+<!ENTITY dialog.invalidpin.disable "Disable Password Sync and keep your current passwords">
+<!ENTITY dialog.title.resetpin "Foxmarks: Reset PIN">
+<!ENTITY dialog.resetpin.pin "Enter new PIN">
+<!ENTITY dialog.resetpin.passwordstrength "パスワード強度:">
+<!ENTITY dialog.resetpin.pinconfirm "Confirm new PIN">
+<!ENTITY dialog.resetpin.desc2 "あなたの PIN を大文字と小文字、数字、記号を混ぜて使い、繰り返しの文字を使わないことでことでより強度なものにしてください。 より強度な PIN によって、あなたのパスワードはもっと安全になります。">
+<!ENTITY dialog.resetpin.desc "Are you sure you want to reset your PIN? This will require us to delete all your passwords currently stored on our server.  Passwords on this computer and on your other computers will not be effected.">
+<!ENTITY dialog.title.passwordconflict "Foxmarks: Stored Password Conflict">
+<!ENTITY dialog.passwordconflict.desc "Foxmarks can&apos;t tell which of these versions of the password should be retained.">
+<!ENTITY dialog.passwordconflict.desc2 "Please pick the version to keep:">
+<!ENTITY dialog.passwordconflict.local "Local Version">
+<!ENTITY dialog.passwordconflict.server "Server Version">
+<!ENTITY dialog.passwordconflict.site "Site:">
+<!ENTITY dialog.passwordconflict.username "Username:">
+<!ENTITY dialog.passwordconflict.password "Password:">
+<!ENTITY dialog.passwordconflict.showpasswords "Show Passwords">
+<!ENTITY dialog.passwordconflict.keeplocal "Keep Local Version">
+<!ENTITY dialog.passwordconflict.keepserver "Keep Server Version">
+<!ENTITY dialog.alert.title "Foxmarks">

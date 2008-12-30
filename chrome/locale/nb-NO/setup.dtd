@@ -1,0 +1,71 @@
+<!ENTITY wizard.height "32">
+<!ENTITY wizard.title "Foxmarks veiviser">
+<!ENTITY wizard.title.verified "Konto bekreftet">
+<!ENTITY wizard.desc8 "Gratulerer, Foxmarks har bekreftet din konto. I neste steg vil vi forberede den første bokmerkesynkroniseringen.">
+<!ENTITY wizard.title.firstsync "Første synkronisering">
+<!ENTITY wizard.desc9 "Foxmarks fant et sett med bokmerker for denne kontoen på tjeneren.">
+<!ENTITY wizard.desc10 "Hvordan skal Foxmarks utføre den første synkroniseringen?">
+<!ENTITY wizard.keepremote "Behold bokmerker på tjeneren; kassere bokmerker på denne maskinen.">
+<!ENTITY wizard.keeplocal "Kassere bokmerker på tjeneren; behold bokmerker på denne maskinen.">
+<!ENTITY wizard.merge "Slå sammen bokmerker på tjeneren med bokmerker på denne maskinen.">
+<!ENTITY wizard.seeserver "Vis eksisterende bokmerker på tjeneren.">
+<!ENTITY wizard.desc11 "I løpet av den første sammenslåingen kommer Foxmarks til å starte med et sett bokmerker og deretter supplere dette med bokmerker og mapper fra det andre settet.">
+<!ENTITY wizard.desc12 "Hvilket sett skal Foxmarks bruke som første sett?">
+<!ENTITY wizard.startlocal "Start med bokmerker på denne maskinen.">
+<!ENTITY wizard.startremote "Start med bokmerker på tjeneren.">
+<!ENTITY wizard.desc13 "(I begge tilfeller beholdes alle bokmerker. Sluttresultatet vil imidlertid likne mest på det første settet.)">
+<!ENTITY wizard.title.ready "Klar til å synkronisere">
+<!ENTITY wizard.desc14 "Foxmarks er klar til å utføre den første bokmerkesynkroniseringen.">
+<!ENTITY wizard.title.success "Fullført!">
+<!ENTITY wizard.desc15 "Gratulerer, synkroniserte bokmerker uten feil. Fra nå av vil Foxmarks automatisk synkronisere bokmerker på denne maskinen.">
+<!ENTITY wizard.desc16 "For å endre innstillinger for synkronisering, gå til Foxmarks-menyen i verktøymenyen til Firefox.">
+<!ENTITY wizard.title.selectprofile "Velg profil">
+<!ENTITY wizard.label.profilechoice "Profil:">
+<!ENTITY wizard.profile.defaultname "&lt;ingen&gt;">
+<!ENTITY wizard.profile.desc "Du har laget profiler for å kontrollere hvilke bokmerker som skal synkroniseres. Her kan du velge en profil for denne maskinen, eller beholde standardinnstillingen og synkronisere alle bokmerker med denne maskinen.">
+<!ENTITY wizard.title.syncpasswords "Passordsynkronisering (Valgfritt)">
+<!ENTITY wizard.syncpassworddesc "Ønsker du å synkronisere dine lagrede passord?">
+<!ENTITY wizard.syncpassworddesc2 "For å synkronisere lagrede passord må du angi en PIN-kode for å beskytte passordene. Denne koden vil bli brukt for å kryptere dine passord før de sendes fra maskinen. Ingen utenom deg vil kunne se dine passord.">
+<!ENTITY wizard.syncpassworddesc3 "You can turn this feature on or off at any time from the Foxmarks Settings dialog.">
+<!ENTITY wizard.syncpassworddesc4 "Would you like to enable secure password sync now?">
+<!ENTITY wizard.syncpasswordcheck "Yes, securely sync my passwords">
+<!ENTITY wizard.yes "Ja">
+<!ENTITY wizard.no "Nei">
+<!ENTITY wizard.title.pinold "Angi PIN-kode">
+<!ENTITY wizard.desc.oldpin "Angi PIN-koden du brukte når du satt opp passordsynkronisering.">
+<!ENTITY wizard.whatisthis "Hva er det?">
+<!ENTITY wizard.label.pin "Angi PIN-kode:">
+<!ENTITY wizard.label.confirmpin "Bekreft PIN-kode:">
+<!ENTITY wizard.forgotpin "Jeg glemte min PIN-kode">
+<!ENTITY wizard.title.pinnew "Opprett PIN-kode">
+<!ENTITY wizard.desc.pinnew "Foxmarks sikrer dine passord ved å kryptere dem med en privat PIN-kode som du selv oppretter. Det er viktig at du husker denne PIN-koden siden Foxmarks ikke kan hjelpe deg med å gjenopprette denne.">
+<!ENTITY wizard.desc.pinnew2 "Your PIN can be any combination of letters, numbers and symbols.">
+<!ENTITY wizard.learnmore "Mer informasjon.">
+<!ENTITY wizard.title.pincreated "PIN-kode opprettet">
+<!ENTITY wizard.newpinverifieddesc "Din PIN-kode er nå opprettet. Foxmarks vil nå bruke denne koden for å sikre dine passord før de synkroniseres. Ingen utenom deg vil kunne se dine passord.">
+<!ENTITY wizard.newpinverifieddesc2 "Ikke mist denne PIN-koden. For din egen sikkerhet har Foxmarks ingen tilgang til denne koden og kan ikke hjelpe deg med å gjenopprette denne.">
+<!ENTITY wizard.title.pinverified "PIN-kode kontrollert">
+<!ENTITY wizard.pinverifieddesc "Kontroll av PIN-kode vellykket">
+<!ENTITY wizard.pinverifieddesc2 "You can change these settings at any time via the Foxmarks Settings dialog.">
+<!ENTITY wizard.title.forgotpin "Glemt PIN-kode">
+<!ENTITY wizard.learnhow "Les om hvordan du kan gjenopprette din PIN-kode på din andre datamaskin.">
+<!ENTITY wizard.forgotpindesc "Dessverre kan vi ikke gjenopprette din PIN-kode. Du kan kanskje gjenopprette PIN-koden fra en av dine andre maskiner.">
+<!ENTITY wizard.forgotpindesc2 "Du kan velge å:">
+<!ENTITY wizard.forgotpinoption1 "Angi din PIN-kode senere. Ikke synkroniser passord på denne maskinen.">
+<!ENTITY wizard.forgotpinoption2 "Nullstille din PIN-kode.">
+<!ENTITY wizard.title.resetpin "Nullstill PIN-kode">
+<!ENTITY wizard.resetpindesc "Er du sikker på at du vil nullstille din PIN-kode? Dette vil medføre at du må angi din PIN-kode også på dine andre maskiner.">
+<!ENTITY wizard.resetpinoption1 "Ja, nullstill PIN-kode.">
+<!ENTITY wizard.resetpinoption2 "Nei, ikke synkroniser passord på denne maskinen.">
+<!ENTITY wizard.title.resetpinverified "Ny PIN-kode opprettet">
+<!ENTITY wizard.resetpinverifieddesc "Din PIN-kode har blitt endret. Du må angi denne PIN-koden på dine andre maskiner neste gang du kjører synkronisering på dem.">
+<!ENTITY wizard.securityinfo.label.1 "How Does Secure Password Sync Work?">
+<!ENTITY wizard.securityinfo.desc.1 "Encryption is at the core of how Foxmarks ensures that your passwords travel securely across the Internet to your other computers.">
+<!ENTITY wizard.securityinfo.desc.2 "When you opt to securely sync your passwords, Foxmarks will ask you to choose a secret PIN. This PIN will be used to encrypt your passwords before they leave your computer.">
+<!ENTITY wizard.securityinfo.desc.3 "Encrypting your passwords means that they will be scrambled into bits that can only be deciphered if you know the correct PIN. Since only you have the PIN, only you (not even Foxmarks) will be able to convert this encrypted data back into a meaningful list of passwords.">
+<!ENTITY wizard.securityinfo.label.2 "How Strong is the Encryption?">
+<!ENTITY wizard.securityinfo.desc.4 "To ensure that your passwords are encrypted with the maximum possible security, Foxmarks uses the current state of the art AES 256-bit encryption algorithm. AES is a United States government standard and is recommended by National Security Administration (NSA) for encrypting classified information.">
+<!ENTITY wizard.securityinfo.label.3 "What Can I do to Get the Maximum Possible Security?">
+<!ENTITY wizard.securityinfo.desc.5 "Even with the kind of military grade encryption that we&apos;re using, a very important component is the strength of the secret PIN that you choose. Foxmarks recommends that you choose a PIN that is difficult to guess and contains a variety of different letters, numbers, and symbols (such as @, $ and *)">
+<!ENTITY wizard.securityinfo.label.4 "I Want to Know More">
+<!ENTITY wizard.securityinfo.desc.6 "Please visit foxmarks.com to learn more. You can choose not to sync your passwords right now, but can easily turn this feature on later from the Foxmarks settings dialog.">

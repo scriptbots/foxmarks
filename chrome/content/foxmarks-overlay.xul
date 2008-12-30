@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+
+<!--
+
+ Copyright 2005-2008 Foxmarks Inc.
+ 
+ foxmarks-overlay.xul: implements Foxmarks overlay into Firefox.
+ 
+-->
+
+<?xul-overlay href="chrome://foxmarks/content/foxmarks-statusbar.xul" ?>
+<!DOCTYPE dialog SYSTEM "chrome://foxmarks/locale/foxmarks.dtd">
+
+<overlay id="foxmarksBookmarksOverlay"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+      
+    <script src="foxmarks-overlay.js" />
+    <script src="foxmarks-settings.js" />
+
+<!--
+    <script src="foxmarks-log.js" />
+    <script src="foxmarks-update.js" />
+    <script src="foxmarks-clobber.js" />
+    <script src="foxmarks-places.js" />
+    <script src="foxmarks-nodes.js" />
+    <script src="foxmarks-command.js" />
+    <script src="foxmarks-core.js" />
+    <script src="foxmarks-network.js" />
+    <script src="foxmarks-json.js" />
+    <script src="shared/CreateAESManager.js" />
+    <script src="shared/Base64.js" />
+    <script src="foxmarks-utils.js" />
+    <script src="foxmarks-uitools.js" />
+    <script src="foxmarks-password.js" />
+    <script src="foxmarks-bookmark.js" />
+    <script src="foxmarks-server.js" />
+    <script src="foxmarks-test.js" />
+-->
+    <menupopup id="menu_ToolsPopup">
+        <menu id="foxmarks-menuitem" label="Foxmarks" class="menu-iconic"
+            image="chrome://foxmarks/skin/images/foxmarks_bug.png" 
+            accesskey="&menu.accesskey.foxmarks;" 
+            insertafter="devToolsSeparator">
+            <menupopup id="foxmarks-menupopup" onpopupshowing="return FoxmarksOnPopupShowing()">
+
+<!--
+                <menuitem label="Test "
+                     oncommand="TestSync()" 
+                    />
+-->
+                <menuitem label="&dialog.label.syncNow;   "
+                    accesskey="&menu.accesskey.syncnow;" oncommand="Synch()" 
+                    key="SyncNow" />
+                <menuitem label="&menu.myFoxmarks;   "
+                    accesskey="&menu.accesskey.myfoxmarks;" 
+                    oncommand="MyFoxmarks()" />
+                <menuitem label="&menu.settings;   "
+                    accesskey="&menu.accesskey.settings;" 
+                    oncommand="OpenFoxmarksSettingsDialog()" 
+                    key="OpenFoxmarksDialog" />
+                <menuseparator />
+                <menuitem label="&menu.showstatus;" 
+                    id="foxmarks-showstatusicon" 
+                    accesskey="&menu.accesskey.icon;"
+                    type="checkbox" oncommand="FoxmarksToggleIcon()" />
+            </menupopup>
+        </menu>
+    </menupopup>
+    
+    <keyset id="mainKeyset">
+        <key id="SyncNow" modifiers="accel,shift" key="s" 
+            oncommand="Synch();" />
+        <key id="OpenFoxmarksDialog" modifiers="accel,shift" key="f" 
+            oncommand="OpenFoxmarksSettingsDialog();" /> 
+    </keyset>   
+
+    <statusbar id="status-bar">
+        <statusbarpanel id="foxmarks-statusbarpanel" /> 
+    </statusbar>
+
+</overlay>

@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+
+<!--
+
+ Copyright 2007 Foxmarks Inc.
+
+ foxmarks-statusbar.xul: implements the Foxmarks status bar
+
+-->
+
+<!DOCTYPE dialog SYSTEM "chrome://foxmarks/locale/foxmarks.dtd">
+<?xml-stylesheet href="chrome://foxmarks/skin/foxmarks.css" type="text/css"?>
+
+<overlay id="foxmarksStatusbarOverlay"
+      xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+    <script src="foxmarks-statusbar.js" />
+    <script src="foxmarks-uitools.js" />
+
+    <statusbarpanel id="foxmarks-statusbarpanel" context="foxmarks-statepopup" >
+        <image id="foxmarks-statusimage" context="foxmarks-statepopup" 
+           onclick="if (event.button &lt; 2) { OpenFoxmarksSettingsDialog(); }" 
+        />
+        <popup id="foxmarks-statepopup">
+            <menuitem label="&dialog.label.syncNow;   "
+                accesskey="&menu.accesskey.syncnow;" 
+                oncommand="Synch()" 
+                key="SyncNow" />
+            <menuitem label="&menu.myFoxmarks;   "
+                accesskey="&menu.accesskey.myfoxmarks;" 
+                oncommand="MyFoxmarks()" />
+            <menuitem label="&menu.settings;   "
+                accesskey="&menu.accesskey.settings;" 
+                oncommand="OpenFoxmarksSettingsDialog()" 
+                key="OpenFoxmarksDialog" />
+            <menuseparator />
+            <menuitem label="&menu.showstatus;   " type="checkbox"
+                checked="true" autocheck="false" 
+                accesskey="&menu.accesskey.icon;"
+                oncommand="gSettings.hideStatusIcon = true;"/>
+        </popup>
+    </statusbarpanel>
+</overlay>
+
+

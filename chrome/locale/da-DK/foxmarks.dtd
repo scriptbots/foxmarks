@@ -1,0 +1,103 @@
+<!ENTITY dialog.title "Foxmarks indstillinger">
+<!ENTITY dialog.label.username "Brugernavn:">
+<!ENTITY dialog.label.password "Adgangskode:">
+<!ENTITY dialog.label.rememberPassword "Husk denne adgangskode.">
+<!ENTITY dialog.label.rememberPIN "Husk denne PIN-kode.">
+<!ENTITY dialog.label.forgotPassword "Jeg har glemt mit brugernavn eller adgangskode">
+<!ENTITY dialog.label.synchronization "Synkroniserings-indstillinger">
+<!ENTITY dialog.label.ontimer "Aktiver automatisk synkronisering">
+<!ENTITY dialog.label.synconshutdown "Synkroniser når der afsluttes">
+<!ENTITY dialog.label.synconstartup "Synkroniser når der startes op">
+<!ENTITY dialog.label.askfirst "Spørg først">
+<!ENTITY dialog.label.lastsync "Seneste synkronisering:">
+<!ENTITY dialog.label.runWizard "Kør installeringsguide">
+<!ENTITY dialog.label.syncNow "Synkroniser nu">
+<!ENTITY progress.title "Foxmarks: Status">
+<!ENTITY progress.label.status "Status:">
+<!ENTITY progress.width "30">
+<!ENTITY clobber.desc1 "Advarsel">
+<!ENTITY clobber.desc2 "Foxmarks har opdaget, at dit nuværende bogmærkesæt er betydeligt mindre, end det sidst synkroniserede sæt.">
+<!ENTITY clobber.desc3 "En sjælden men alvorlig fejl i Firefox kan nogle gange bevirke, at din bogmærkeliste midlertidigt bliver erstattet med et lille sæt standard bogmærker. Skulle dette ske, er det vigtigt, at Foxmarks ikke synkroniserer dine bogmærker før problemet er løst.">
+<!ENTITY clobber.prompt "Er du sikker på du vil synkronisere dine bogmærker nu?">
+<!ENTITY clobber.moreinfo "Fortæl mig mere...">
+<!ENTITY clobber.accept "Ja, synkroniser">
+<!ENTITY clobber.lastset "Antal emner SIDSTE gang:">
+<!ENTITY clobber.currset "Antal emner DENNE gang:">
+<!ENTITY manager.syncNow "Synkroniser nu">
+<!ENTITY menu.myFoxmarks "My Foxmarks">
+<!ENTITY menu.settings "Foxmarks indstillinger...">
+<!ENTITY menu.status "Status...">
+<!ENTITY menu.showstatus "Vis ikon på statuslinje">
+<!ENTITY menu.accesskey.foxmarks "F">
+<!ENTITY menu.accesskey.syncnow "S">
+<!ENTITY menu.accesskey.myfoxmarks "M">
+<!ENTITY menu.accesskey.settings "F">
+<!ENTITY menu.accesskey.status "t">
+<!ENTITY menu.accesskey.icon "V">
+<!ENTITY clobber.helpurl "http://wiki.foxmarks.com/wiki/Foxmarks:_Disappearing_Bookmarks">
+<!ENTITY label.general "Generelt">
+<!ENTITY label.status "Status">
+<!ENTITY label.current.status "Nuværende Status">
+<!ENTITY label.sync "Synkroniser">
+<!ENTITY label.sync.caption "Synkroniseringstyper">
+<!ENTITY label.account "Konto">
+<!ENTITY label.synchronization "Synkroniserings-indstillinger">
+<!ENTITY label.advanced "Avanceret">
+<!ENTITY label.security "Forbindelses-sikkerhed">
+<!ENTITY label.encrypt "Kryptering:">
+<!ENTITY label.noencrypt "Ingen kryptering">
+<!ENTITY label.passwordonly "Kun login">
+<!ENTITY label.encryptall "Krypter alt">
+<!ENTITY label.server "Server">
+<!ENTITY label.ownserver "Anvend din egen server">
+<!ENTITY label.useownserver "Anvend egen server">
+<!ENTITY label.url "Bogmærke URL:">
+<!ENTITY label.passwordurl "Adgangskode URL:">
+<!ENTITY label.manualoverwrite "Overskriv manuelt">
+<!ENTITY label.upload "Upload">
+<!ENTITY label.download "Hent">
+<!ENTITY label.forceoverwriteserver "Overskriv bogmærker på serveren">
+<!ENTITY label.forceoverwritelocal "Overskriv bogmærker på computeren">
+<!ENTITY label.logging "Log">
+<!ENTITY label.enablelogging "Aktiver log">
+<!ENTITY label.showlogfile "Vis logfil">
+<!ENTITY label.profiles "Profiler">
+<!ENTITY label.profilechoice "Profil:">
+<!ENTITY label.sync.bookmarks "Bogmærker">
+<!ENTITY label.sync.passwords "Adgangskoder">
+<!ENTITY label.sync.resetpin "Nulstil PIN-kode">
+<!ENTITY label.sync.deletepasswords "Slet adgangskoder fra server">
+<!ENTITY label.sync.onlyff3 "* Kun for Firefox 3 eller højere.">
+<!ENTITY label.sync.morecomingsoon "Lær mere om hvilke andre datatyper, der snart vil blive tilgængelige.">
+<!ENTITY desc.profile "Brug synkroniserings-profiler til, at opbevare følsomme bogmærker hvor de hører hjemme. Opret og håndter profiler hos my.foxmarks.com. Vælg en profil her og styr så hvad Foxmarks synkroniserer til og fra denne computer.">
+<!ENTITY desc.sync "Foxmarks kan synkronisere og tage backup af både bogmærker og adgangskoder.">
+<!ENTITY desc.ownserver "Foxmarks understøtter opbevaring af dine data på din egen server, som fex. en FTP- eller WebDAV-server.">
+<!ENTITY label.ownserver.moreinfo "Lær mere">
+<!ENTITY label.manageprofiles "Opret og håndter synkroniserings-profiler">
+<!ENTITY profile.defaultname "&lt;ingen&gt;">
+<!ENTITY label.profile.change "Ændr">
+<!ENTITY label.profile.my "My.Foxmarks.com">
+<!ENTITY profile.dialog.title "Ændr synkroniserings-profil">
+<!ENTITY profile.dialog.desc "For at bevare dine profiler private, skal du indtaste adgangskoden for din Foxmarks konto, inden du kan fortsætte.">
+<!ENTITY dialog.title.invalidpin "Sikker synkronisering af adgangskoder: Ugyldig PIN-kode">
+<!ENTITY dialog.invalidpin.desc "Din nuværende PIN-kode ser ud til at være ugyldig. Du har sandsynligvis ændret din PIN-kode på en anden computer, og den behøver, at blive opdateret her. Du kan gøre ét af følgende:">
+<!ENTITY dialog.invalidpin.newpin "Indtast din PIN-kode:">
+<!ENTITY dialog.invalidpin.disable "Deaktiver adgangskode-synkronisering og bevar dine nuværende adgangskoder">
+<!ENTITY dialog.title.resetpin "Sikker synkronisering af adgangskoder: Nulstil PIN-kode">
+<!ENTITY dialog.resetpin.pin "Indtast ny PIN-kode">
+<!ENTITY dialog.resetpin.passwordstrength "PIN-kodens styrke:">
+<!ENTITY dialog.resetpin.pinconfirm "Bekræft ny PIN-kode">
+<!ENTITY dialog.resetpin.desc2 "Din PIN-kode kan være en kombination af bogstaver, tal og symboler.">
+<!ENTITY dialog.resetpin.desc "Er du sikker på du ønsker, at nulstille din PIN-kode? Dette vil kræve, at vi sletter alle dine adgangskoder, der er opbevaret på vores server. Adgangskoder på denne og dine andre computere bliver ikke berørt.">
+<!ENTITY dialog.title.passwordconflict "Sikker synkronisering af adgangskoder: Opbevaret adgangskode konflikt">
+<!ENTITY dialog.passwordconflict.desc "Foxmarks kan ikke afgøre, hvilke af disse versioner af adgangskoderne der skal bevares.">
+<!ENTITY dialog.passwordconflict.desc2 "Vælg venligst versionen der skal bevares:">
+<!ENTITY dialog.passwordconflict.local "Lokal version">
+<!ENTITY dialog.passwordconflict.server "Server version">
+<!ENTITY dialog.passwordconflict.site "Sted:">
+<!ENTITY dialog.passwordconflict.username "Brugernavn:">
+<!ENTITY dialog.passwordconflict.password "Adgangskode:">
+<!ENTITY dialog.passwordconflict.showpasswords "Vis adgangskoder">
+<!ENTITY dialog.passwordconflict.keeplocal "Bevar lokal version">
+<!ENTITY dialog.passwordconflict.keepserver "Bevar server version">
+<!ENTITY dialog.alert.title "Foxmarks">

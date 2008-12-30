@@ -1,0 +1,103 @@
+<!ENTITY dialog.title "Foxmarks Bookmark Sync">
+<!ENTITY dialog.label.username "Имя пользователя:">
+<!ENTITY dialog.label.password "Пароль:">
+<!ENTITY dialog.label.rememberPassword "Запоминать пароль между сессиями">
+<!ENTITY dialog.label.rememberPIN "Запоминать этот PIN между сессиями.">
+<!ENTITY dialog.label.forgotPassword "Я забыл своё Имя пользователя или Пароль">
+<!ENTITY dialog.label.synchronization "Настройки синхронизации">
+<!ENTITY dialog.label.ontimer "Включить автоматическую синхронизацию">
+<!ENTITY dialog.label.synconshutdown "Синхронизировать при закрытии">
+<!ENTITY dialog.label.synconstartup "Синхронизировать при старте">
+<!ENTITY dialog.label.askfirst "Спрашивать">
+<!ENTITY dialog.label.lastsync "Последняя синхронизация">
+<!ENTITY dialog.label.runWizard "Запустить мастер установки">
+<!ENTITY dialog.label.syncNow "Синхронизировать">
+<!ENTITY progress.title "Foxmarks: Статус">
+<!ENTITY progress.label.status "Статус:">
+<!ENTITY progress.width "24">
+<!ENTITY clobber.desc1 "Внимание">
+<!ENTITY clobber.desc2 "Foxmarks определил, что текущий набор закладок значительно меньше чем при последней синхронизации.">
+<!ENTITY clobber.desc3 "Редкая, но серьезная ошибка в браузере Firefox может иногда приводить к замене вашего набора закладок, на закладки установленные в браузере по умолчанию (значительно меньшего размера). Важно, чтобы до решения этой проблемы не производить синхронизацию закладок в Foxmarks.">
+<!ENTITY clobber.prompt "Вы уверены, что хотите синхронизировать закладки сейчас?">
+<!ENTITY clobber.moreinfo "Подробнее...">
+<!ENTITY clobber.accept "Да, пожалуйста синхронизируйте">
+<!ENTITY clobber.lastset "Количество пунктов в прошлый раз:">
+<!ENTITY clobber.currset "Количество пунктов в этот раз:">
+<!ENTITY manager.syncNow "Синхронизировать">
+<!ENTITY menu.myFoxmarks "My Foxmarks">
+<!ENTITY menu.settings "Настройки...">
+<!ENTITY menu.status "Статус...">
+<!ENTITY menu.showstatus "Показывать иконку статуса">
+<!ENTITY menu.accesskey.foxmarks "F">
+<!ENTITY menu.accesskey.syncnow "C">
+<!ENTITY menu.accesskey.myfoxmarks "M">
+<!ENTITY menu.accesskey.settings "Н">
+<!ENTITY menu.accesskey.status "с">
+<!ENTITY menu.accesskey.icon "I">
+<!ENTITY clobber.helpurl "http://www.foxcloud.com/wiki/Foxmarks:_Disappearing_Bookmarks">
+<!ENTITY label.general "Общие">
+<!ENTITY label.status "Статус">
+<!ENTITY label.current.status "Текущий статус">
+<!ENTITY label.sync "Тип данных">
+<!ENTITY label.sync.caption "Синхронизация и Резервная копия">
+<!ENTITY label.account "Учетная запись">
+<!ENTITY label.synchronization "Синхронизация">
+<!ENTITY label.advanced "Дополнительно">
+<!ENTITY label.security "Безопасность">
+<!ENTITY label.encrypt "Шифрование:">
+<!ENTITY label.noencrypt "Не шифровать">
+<!ENTITY label.passwordonly "Только пароль">
+<!ENTITY label.encryptall "Шифровать всё">
+<!ENTITY label.server "Сервер">
+<!ENTITY label.ownserver "Использовать свой сервер">
+<!ENTITY label.useownserver "Использование собственного сервера">
+<!ENTITY label.url "URL закладок:">
+<!ENTITY label.passwordurl "URL пароля:">
+<!ENTITY label.manualoverwrite "Ручная перезапись">
+<!ENTITY label.upload "Отправить">
+<!ENTITY label.download "Загрузить">
+<!ENTITY label.forceoverwriteserver "Перезаписать закладки на сервере">
+<!ENTITY label.forceoverwritelocal "Перезаписать локальные закладки">
+<!ENTITY label.logging "Журнал">
+<!ENTITY label.enablelogging "Включить Журнал">
+<!ENTITY label.showlogfile "Показать Журнал">
+<!ENTITY label.profiles "Профили">
+<!ENTITY label.profilechoice "Профиль:">
+<!ENTITY label.sync.bookmarks "Закладки">
+<!ENTITY label.sync.passwords "Пароли">
+<!ENTITY label.sync.resetpin "Сбросить PIN-код">
+<!ENTITY label.sync.deletepasswords "Удалить пароли с Сервера">
+<!ENTITY label.sync.onlyff3 "* Только для Firefox 3 и выше">
+<!ENTITY label.sync.morecomingsoon "Узнать о том, какие типы данных будут поддерживаться в ближайшее время.">
+<!ENTITY desc.profile "Для синхронизации закладок, которые требуется хранить только в определенном месте используйте профили. Создавайте и изменяйте профили синхронизации на my.foxmarks.com. Затем выбирайте нужный профиль Foxmarks на компьютере и синхронизируете закладки, выбирая каким образом будет произведена синхронизация (с компьютера или на компьютер).">
+<!ENTITY desc.sync "Foxmarks может синхронизировать и делать резервные копии закладок и паролей">
+<!ENTITY desc.ownserver "Foxmarks поддерживает хранение данных на ваших собственных серверах, таких, как FTP или WebDAV-сервер.">
+<!ENTITY label.ownserver.moreinfo "Подробнее.">
+<!ENTITY label.manageprofiles "Создание и управление профилями синхронизации">
+<!ENTITY profile.defaultname "&lt;не выбрано&gt;">
+<!ENTITY label.profile.change "Изменить">
+<!ENTITY label.profile.my "My.Foxmarks.com">
+<!ENTITY profile.dialog.title "Изменить Профиль Синхронизации">
+<!ENTITY profile.dialog.desc "Для защиты конфиденциальности ваших профилей, для продолжения, введите пароль учетной записи Foxmarks.">
+<!ENTITY dialog.title.invalidpin "Foxmarks: неверный PIN-код">
+<!ENTITY dialog.invalidpin.desc "Ваш текущий PIN-код неверен. Скорее всего, вы изменили свой PIN-код на другом компьютере и необходимо обновить его и на этом компьютере. Вы можете выбрать один из следующих:">
+<!ENTITY dialog.invalidpin.newpin "Введите свой PIN-код:">
+<!ENTITY dialog.invalidpin.disable "Отключить синхрнизацию пароля и сохранить текущие пароли">
+<!ENTITY dialog.title.resetpin "Foxmarks: сбросить PIN-код">
+<!ENTITY dialog.resetpin.pin "Введите новый PIN-код">
+<!ENTITY dialog.resetpin.passwordstrength "Безопасность пароля:">
+<!ENTITY dialog.resetpin.pinconfirm "Подтвердите новый PIN-код">
+<!ENTITY dialog.resetpin.desc2 "Сделайте ваш PIN-код более безопасным используя сочетания верхнего и нижнего регистра, цифр, знаков препинания и исключая повторения символов. Чем более сложным будет ваш PIN-код, тем более надежно будут защищены ваши пароли.">
+<!ENTITY dialog.resetpin.desc "Вы уверены, что хотите изменить свой PIN-код? Для этого нам необходимо удалить все ваши пароли, которые в настоящее время храняться на нашем сервере. Пароли на этом и других ваших компьютерах не будут затронуты.">
+<!ENTITY dialog.title.passwordconflict "Foxmarks: Конфликт сохранения пароля">
+<!ENTITY dialog.passwordconflict.desc "Foxmarks не может определить, какая версия пароля должна быть сохранена.">
+<!ENTITY dialog.passwordconflict.desc2 "Пожалуйста, выберите версию, которую нужно сохранить:">
+<!ENTITY dialog.passwordconflict.local "Локальная версия">
+<!ENTITY dialog.passwordconflict.server "Версия сервера">
+<!ENTITY dialog.passwordconflict.site "Сайт:">
+<!ENTITY dialog.passwordconflict.username "Имя пользователя:">
+<!ENTITY dialog.passwordconflict.password "Пароль:">
+<!ENTITY dialog.passwordconflict.showpasswords "Показать пароли">
+<!ENTITY dialog.passwordconflict.keeplocal "Выбрать локальную версию">
+<!ENTITY dialog.passwordconflict.keepserver "Выбрать версию сервера">
+<!ENTITY dialog.alert.title "Foxmarks">

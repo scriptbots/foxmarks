@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+
+<!--
+
+Copyright 2008 Foxmarks Inc.
+
+foxmarks-manageroverlay.xul: implements Foxmarks overlay into the 
+Bookmarks Manager.
+
+-->
+
+<!DOCTYPE dialog SYSTEM "chrome://foxmarks/locale/foxmarks.dtd">
+<?xml-stylesheet href="chrome://foxmarks/skin/foxmarks.css" type="text/css"?>
+
+<overlay id="foxmarksPlacesOverlay"
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <script src="foxmarks-uitools.js" />
+
+  <toolbox id="placesToolbox" >
+    <toolbar id="placesToolbar">
+        <toolbarbutton type="menu" class="tabbable" id="foxmarks-placesmenu"
+            label="Foxmarks" insertafter="maintenanceButton" >
+          <menupopup id="foxmarks-placespopup">
+            <menuitem label="&dialog.label.syncNow;   "
+              accesskey="&menu.accesskey.syncnow;" 
+              oncommand="Synch()" 
+              key="SyncNow" />
+            <menuitem label="&menu.myFoxmarks;   "
+              accesskey="&menu.accesskey.myfoxmarks;" 
+              oncommand="MyFoxmarks()" />
+            <menuitem label="&menu.settings;   "
+              accesskey="&menu.accesskey.settings;" 
+              oncommand="OpenFoxmarksSettingsDialog()" 
+              key="OpenFoxmarksDialog" />
+          </menupopup>
+      </toolbarbutton>
+    </toolbar>
+  </toolbox>  
+  <statusbar id="statusbar">
+    <statusbarpanel id="foxmarks-statusbarpanel" />
+  </statusbar>
+
+</overlay>
+
