@@ -1,0 +1,19 @@
+Latest Foxmarks Add-On for Firefox Tackles Password Backups
+
+Erik Larkin
+
+Dec 13, 2008 12:35 am
+
+If you're among the multitude of people who rely on the Firefox browser to remember their Web site passwords (and there's no denying that I am), here's something you might like. The latest version of the popular, free Foxmarks add-on now has a feature for synchronizing and effectively backing up the passwords that your browser stores, in much the same way as it does for your bookmarks.
+
+It's dead simple to set up Foxmarks so that whenever you add a bookmark to your browser at work, the new addition will also be automatically synced to your browser at home, and vice versa. For example, if you install Firefox on a new PC, you can install the add-on and give it your Foxmarks account information; and all of your usual bookmarks will be available almost immediately. You can also log into my.foxmarks.com to view and organize your saved bookmarks.
+
+Password syncing works in much the same way--except, of course, that passwords are much more security-sensitive than bookmarks. So I did some investigating to make sure that the company had taken the proper precautions. My conclusion: It appears to have done so.
+
+For starters, when you enable password syncing (it's switched off by default; to turn it on, go to Tools, Foxmarks, Foxmarks settings), the program will ask you to enter a personal identification number in addition to your Foxmarks username and password. Foxmarks uses that PIN, which is really just another password, to encrypt your saved browser passwords with 256-bit AES (automatic edit summaries) encryption before sending them over an SSL connection to the Foxmarks servers. Firefox saves the PIN on your PCs (so make sure that you use a Master password in Firefox to protect it), but it never sends the number to Foxmarks.
+
+When you set up Foxmarks on another browser, you'll have to supply the PIN in order to pull down and decrypt your synced passwords. If you ever forget your PIN, you can go to Foxmarks' settings in your browser and reset the value there, but taking this step will wipe out any passwords that are saved on the Foxmarks servers. Once you have established a new PIN, however, Foxmarks will resync the passwords from your PC. Consequently, if you have set up only one browser to work with Foxmarks and you lose that browser as a result of a hard-drive crash or a similar misfortune, you won't be able to restore your passwords if you can't remember your PIN.
+
+I also checked to confirm that the new version of Foxmarks doesn't permit access to your passwords via its Web site, as it does to your bookmarks. Though such access is quite useful for bookmark management, it would present a major security risk for passwords.
+
+Finally, if you operate your own Web site and have set up either WebdDAV or FTP access, you can use your own server to handle bookmarks and passwords instead of sending the data to Foxmarks. The Foxmarks wiki has more information on that advanced feature.
